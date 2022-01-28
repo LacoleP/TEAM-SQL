@@ -21,3 +21,11 @@ staff_contact_number INT UNIQUE,
 staff_animal_speciality VARCHAR(30)
 );
 
+CREATE TABLE cage (cage_id INT AUTO_INCREMENT PRIMARY KEY,
+length DECIMAL,
+hight DECIMAL,
+price DECIMAL,
+purchase_date DATE,
+category VARCHAR(30));
+
+DESCRIBE cage;
